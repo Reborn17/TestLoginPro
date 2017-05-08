@@ -42,7 +42,7 @@ public class Main2Activity extends AppCompatActivity {
 
     public void verifyUser (String userdIdString, String passwordString){
         textView4 = (TextView) findViewById(R.id.textView4);
-        if("himanshu".equals(userdIdString) && "omshanti".equals(passwordString)) {
+        if("user".equals(userdIdString) && "password".equals(passwordString)) {
             textView4.setText("Login Succuessful ::");
         } else {
             textView4.setText("Login failed ::");
